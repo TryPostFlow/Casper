@@ -1,0 +1,9 @@
+{
+    "application": "planet",
+    "identifier": "casper",
+    "name": "Casper",
+    "author": "fengluo",
+    "description": "The default personal blogging theme for Planet",
+    "license": "MIT/X11",
+    "doctype": "html5"
+}
