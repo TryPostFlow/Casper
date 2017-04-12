@@ -1,9 +1,9 @@
 {
-    "application": "planet",
+    "application": "postflow",
     "identifier": "casper",
     "name": "Casper",
     "author": "fengluo",
-    "description": "The default personal blogging theme for Planet",
+    "description": "The default personal blogging theme for PostFlow",
     "license": "MIT/X11",
     "doctype": "html5"
 }
