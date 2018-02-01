@@ -1,9 +1,9 @@
-{% extends theme('layout.html') %} {% from theme('macros/_loop.html') import loop %} {% block title %}{{author.name}} - Page
-{{posts.page}} - {{g.site.title}}{% endblock %} {% block body_class %}author-template{%endblock%} {% block body %}
+{% extends theme('layout.html') %} {% from theme('macros/_loop.html') import loop %} {% block title %} {{author.name}} -
+Page {{posts.page}} - {{g.site.title}} {% endblock %} {% block body_class %}author-template{%endblock%} {% block body %}
 <header class="main-header author-head {%if author.cover%}" style="background-image: url({{author.cover}}) {%elif g.site.cover%} style="
     background-image: url({{g.site.cover}}){%else%}no-cover{%endif%} ">
     <nav class="main-nav overlay clearfix ">
-        {% if g.site.logo%}<a class="site-logo " href="{{g.site.domain}} "><img src="{{g.site.logo}} " alt="{{g.site.title}} " /></a>{% endif%}
+        {% if g.site.logo%}<a class="blog-logo " href="{{g.site.domain}} "><img src="{{g.site.logo}} " alt="{{g.site.title}} " /></a>{% endif%}
         {% if navigation%}
             <a class="menu-button icon-menu " href="# "><span class="word ">Menu</span></a>
         {% endif%}
